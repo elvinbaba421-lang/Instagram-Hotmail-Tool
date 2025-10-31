@@ -1,4 +1,4 @@
-#@BestEizon / @EizonxTool
+#@Zulzulia
 import webbrowser
 import requests
 import random
@@ -17,7 +17,7 @@ from requests import get
 import sys
 from cfonts import render
 import webbrowser
-webbrowser.open("https://t.me/eizonnxtool")
+webbrowser.open("https://discord.gg/PqwUJGd9nk")
 
 class Eizon:
     def __init__(self, token, ID):
@@ -70,7 +70,7 @@ class Eizon:
         ge = self.hits
         bt = self.badinsta + self.bademail
         be = self.goodig
-        status = f"\r     {self.a5}Hits{self.a2}: {ge} // {self.red}Bad İnsta{self.white}: {bt} // {self.yellow}Retries{self.white}: {be} ---- @BestEizon      "
+        status = f"\r     {self.a5}Hits{self.a2}: {ge} // {self.red}Bad İnsta{self.white}: {bt} // {self.yellow}Retries{self.white}: {be} ---- @Zulzulia      "
         sys.stdout.write(status)
         sys.stdout.flush()
     
@@ -192,7 +192,7 @@ class Eizon:
         reset_info = self.rest(username)
 
         info_text = f"""
-⋘─────━𓆩𝐄𝐈𝐙𝐎𝐍━─────⋙
+⋘─────━𓆩ZULZULİA━─────⋙
 • Hits: {self.total_hits}
 • İsim: {full_name}
 • Kullanıcı Adı: {username}
@@ -208,8 +208,8 @@ class Eizon:
 • Doğrulanmış: {is_verified}
 • Reset: {reset_info}
 • Link: https://www.instagram.com/{username}
-⋘─────━𓆩𝐄𝐈𝐙𝐎𝐍𓆪‏━─────⋙
-𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 ~ @BestEizon • @EizonxTool
+⋘─────━𓆩ZULZULİA񺤁─────⋙
+DİSCORD ~ @ZULZULİA
 """
 
         print(info_text)
@@ -328,6 +328,6 @@ checker.start()
 
 
 
-# tool tamamen ucretsizdir.
+# Tool Tamamen Zulzulia, Aittir
 
-# telegram; @besteizon / @eizonxtool
+# Disford; @zulzulia
